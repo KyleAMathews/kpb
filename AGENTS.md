@@ -27,22 +27,21 @@ src/
 
 ## Styling Rules
 
-### Use Flex with gaps, not Box
+### No spacing props on text elements
 
-Capsize strips invisible whitespace from fonts, so text elements sit directly against each other. Always use explicit spacing.
+Capsize normalizes text boxes to actual glyph bounds (no extra leading), so spacing between text elements must be controlled via `gap` on the parent container—not margins, padding, or line-height on the text itself.
 
 ```tsx
-// ✅ Good
+// ❌ DON'T - line-height hacks, margins, or padding on text
+<Heading style={{ lineHeight: 1.3 }}>
+<Heading mb="2">
+<Heading pb="1">
+
+// ✅ DO - use gap on parent Flex container
 <Flex direction="column" gap="3">
   <Heading>Title</Heading>
   <Text>Content</Text>
 </Flex>
-
-// ❌ Avoid
-<Box>
-  <Heading mb="3">Title</Heading>
-  <Text>Content</Text>
-</Box>
 ```
 
 ### Spacing scale
@@ -80,7 +79,7 @@ Create new routes in `src/routes/`:
 ```tsx
 // src/routes/about.tsx
 import { createFileRoute } from '@tanstack/react-router'
-import { Container, Heading, Text } from '@radix-ui/themes'
+import { Container, Flex, Heading, Text } from '@radix-ui/themes'
 
 export const Route = createFileRoute('/about')({
   component: AboutPage,
@@ -89,8 +88,10 @@ export const Route = createFileRoute('/about')({
 function AboutPage() {
   return (
     <Container size="2" py="6">
-      <Heading size="8" mb="4">About</Heading>
-      <Text>Your content here.</Text>
+      <Flex direction="column" gap="4">
+        <Heading size="8">About</Heading>
+        <Text>Your content here.</Text>
+      </Flex>
     </Container>
   )
 }
