@@ -23,3 +23,8 @@ body {
 .radix-themes [class*="Heading"] {
   font-family: var(--heading-font);
 }
+
+/* Theme picker dropdown items */
+.rt-DropdownMenuContent .rt-DropdownMenuItem {
+  padding: 12px 16px;
+}
