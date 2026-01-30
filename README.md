@@ -5,6 +5,8 @@ A starter for building apps with TanStack Start, Radix UI, and capsize typograph
 ## Quick Start
 
 ```bash
+npx gitpick KyleAMathews/kpb my-app
+cd my-app
 pnpm install
 pnpm dev
 ```
