@@ -57,6 +57,10 @@ Radix uses 1-9 scale:
 
 Use Radix props instead of `style={{}}`. When unsure how to style something, look up the Radix docs at https://www.radix-ui.com/themes/docs
 
+### State management (TanStack DB only)
+
+Use TanStack DB for all state. For client-only UI state, use a local-only collection. Never use `useState`.
+
 ## Available Themes
 
 | ID | Name | Fonts | Vibe |
@@ -131,3 +135,11 @@ pnpm exec db-playbook show tanstack-db
 - `durable-streams` - HTTP-based append-only logs with offset-based resumability
 - `durable-state` - Real-time state sync (presence, chat, collaborative editing)
 - `durable-streams-dev-setup` - Development environment setup
+
+## Skills
+
+A skill is a set of local instructions in a `SKILL.md` file.
+
+### Available skills
+
+- `frontend-design` - Create distinctive, production-grade frontend interfaces with high design quality. (file: skills/frontend-design/SKILL.md)
