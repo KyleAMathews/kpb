@@ -18,8 +18,9 @@ export function ThemePicker() {
           <DropdownMenu.Item
             key={theme.id}
             onClick={() => setTheme(theme.id)}
+            style={{ padding: '8px 12px' }}
           >
-            <Flex justify="between" align="center" gap="5" style={{ minWidth: 180 }}>
+            <Flex justify="between" align="center" gap="5" style={{ minWidth: 200 }}>
               <Flex direction="column" gap="1">
                 <Text size="2" weight="medium">{theme.name}</Text>
                 <Text size="1" color="gray">{theme.description}</Text>
