@@ -4,7 +4,7 @@ import {
   Scripts,
   createRootRoute,
 } from '@tanstack/react-router'
-import { Theme } from '@radix-ui/themes'
+import { Theme, Container, Heading, Text, Flex } from '@radix-ui/themes'
 
 import { Header } from '../components/Header'
 import { ThemeProvider } from '../contexts/ThemeContext'
@@ -19,7 +19,7 @@ import playfairCss from '@fontsource/playfair-display/latin.css?url'
 import latoCss from '@fontsource/lato/latin.css?url'
 import frauncesCss from '@fontsource/fraunces/latin.css?url'
 import figtreeCss from '@fontsource/figtree/latin.css?url'
-import typographyCss from '../../public/typography.css?url'
+import typographyCss from '/typography.css?url'
 import appCss from '../styles.css?url'
 
 export const Route = createRootRoute({
@@ -45,7 +45,19 @@ export const Route = createRootRoute({
     ],
   }),
   component: RootComponent,
+  notFoundComponent: NotFound,
 })
+
+function NotFound() {
+  return (
+    <Container size="2" py="9">
+      <Flex direction="column" gap="2" align="center">
+        <Heading size="8">404</Heading>
+        <Text color="gray">Page not found</Text>
+      </Flex>
+    </Container>
+  )
+}
 
 function RootComponent() {
   return (
