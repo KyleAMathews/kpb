@@ -1,0 +1,25 @@
+:root {
+  --heading-font: Inter, sans-serif;
+  --body-font: Inter, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Apply font themes to Radix components */
+.radix-themes {
+  --default-font-family: var(--body-font);
+}
+
+/* Headings use the heading font */
+.radix-themes h1,
+.radix-themes h2,
+.radix-themes h3,
+.radix-themes h4,
+.radix-themes h5,
+.radix-themes h6,
+.radix-themes [class*="Heading"] {
+  font-family: var(--heading-font);
+}

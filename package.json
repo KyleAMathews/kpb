@@ -1,0 +1,48 @@
+{
+  "name": "kyles-playbook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "biome format",
+    "lint": "biome lint",
+    "check": "biome check"
+  },
+  "dependencies": {
+    "@capsizecss/metrics": "^3.6.2",
+    "@fontsource/alegreya": "^5.2.8",
+    "@fontsource/alegreya-sans": "^5.2.8",
+    "@fontsource/figtree": "^5.2.10",
+    "@fontsource/fraunces": "^5.2.9",
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/lato": "^5.2.7",
+    "@fontsource/playfair-display": "^5.2.8",
+    "@fontsource/source-sans-3": "^5.2.9",
+    "@fontsource/source-serif-4": "^5.2.9",
+    "@radix-ui/themes": "^3.2.1",
+    "@tanstack/react-router": "^1.132.0",
+    "@tanstack/react-router-devtools": "^1.132.0",
+    "@tanstack/react-start": "^1.132.0",
+    "@tanstack/router-plugin": "^1.132.0",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite-plugin-capsize-radix": "^0.1.5",
+    "vite-tsconfig-paths": "^6.0.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@durable-streams/playbook": "https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/playbook@219",
+    "@electric-sql/playbook": "^0.0.1",
+    "@tanstack/db-playbook": "^0.0.1",
+    "@tanstack/devtools-vite": "^0.3.11",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.7.2",
+    "vite": "^7.1.7"
+  }
+}
