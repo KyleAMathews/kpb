@@ -36,7 +36,7 @@ This starter comes with playbooks pre-installed. Just ask your coding agent:
 - **TanStack Start** - Full-stack React framework
 - **Radix UI** - Accessible components with themes
 - **Capsize typography** - Pixel-perfect text rendering
-- **5 font themes** - Switch at runtime via the theme picker
+- **Dozens of font pairings** - Switch at runtime via the theme picker
 - **Biome** - Fast linting and formatting
 
 ## License

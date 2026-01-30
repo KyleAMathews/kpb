@@ -7,7 +7,7 @@ A starter for building apps with TanStack Start, Radix UI, and capsize typograph
 - **TanStack Start** - Full-stack React framework (SPA/SSR, deploys everywhere)
 - **Radix UI** - Accessible component library with themes
 - **vite-plugin-capsize-radix** - Pixel-perfect typography
-- **5 font themes** - Runtime switchable via ThemePicker
+- **Dozens of font pairings** - Runtime switchable via ThemePicker
 
 ## Project Structure
 
