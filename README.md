@@ -1,6 +1,6 @@
 # Kyle's Playbook
 
-A starter for building apps with TanStack Start, Radix UI, and capsize typography — plus playbooks that teach your coding agent how to use Electric, TanStack DB, and Durable Streams... with elegant typography.
+A starter for Kyle's Playbook with TanStack Start, Radix UI, and Capsize.
 
 ## Quick Start
 
