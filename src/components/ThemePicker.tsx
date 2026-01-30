@@ -1,4 +1,4 @@
-import { DropdownMenu, Button, Text, Flex } from '@radix-ui/themes'
+import { DropdownMenu, Button, Text, Flex, Box } from '@radix-ui/themes'
 import { Palette, Check } from 'lucide-react'
 import { useTheme, FONT_THEMES } from '../contexts/ThemeContext'
 
@@ -18,15 +18,16 @@ export function ThemePicker() {
           <DropdownMenu.Item
             key={theme.id}
             onClick={() => setTheme(theme.id)}
-            style={{ padding: '8px 12px' }}
           >
-            <Flex justify="between" align="center" gap="5" style={{ minWidth: 200 }}>
-              <Flex direction="column" gap="1">
-                <Text size="2" weight="medium">{theme.name}</Text>
-                <Text size="1" color="gray">{theme.description}</Text>
+            <Box py="1">
+              <Flex justify="between" align="center" gap="5" minWidth="200px">
+                <Flex direction="column" gap="1">
+                  <Text size="2" weight="medium">{theme.name}</Text>
+                  <Text size="1" color="gray">{theme.description}</Text>
+                </Flex>
+                {currentTheme.id === theme.id && <Check size={16} />}
               </Flex>
-              {currentTheme.id === theme.id && <Check size={16} />}
-            </Flex>
+            </Box>
           </DropdownMenu.Item>
         ))}
       </DropdownMenu.Content>
