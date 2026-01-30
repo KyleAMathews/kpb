@@ -53,6 +53,10 @@ Radix uses 1-9 scale:
 - `gap="4"` - Comfortable
 - `gap="6"` - Section separation
 
+### Avoid inline styles
+
+Use Radix props instead of `style={{}}`. When unsure how to style something, look up the Radix docs at https://www.radix-ui.com/themes/docs
+
 ## Available Themes
 
 | ID | Name | Fonts | Vibe |
