@@ -1,6 +1,6 @@
 # Kyle's Playbook
 
-A starter for building apps with TanStack Start, Radix UI, and capsize typography.
+A starter for building apps with TanStack Start, Radix UI, and capsize typography — plus playbooks that teach your coding agent how to use Electric, TanStack DB, and Durable Streams.
 
 ## Quick Start
 
@@ -11,6 +11,26 @@ pnpm install
 pnpm dev
 ```
 
+## Included Playbooks
+
+This starter comes with playbooks pre-installed. Just ask your coding agent:
+
+**Electric** — Sync Postgres to your app
+- "Set up Electric sync for my Postgres database"
+- "Run the Electric security checklist"
+
+**TanStack DB** — Reactive client-side data
+- "Add a TanStack DB collection for the users table"
+- "Set up live queries for my todos"
+
+**Durable Streams** — Real-time state sync
+- "Set up a Durable Streams dev environment"
+- "Add presence tracking to my app"
+
+**Radix + Capsize** — Typography
+- "Switch to the Playfair theme"
+- "Show me more font theme options"
+
 ## What's Included
 
 - **TanStack Start** - Full-stack React framework
@@ -18,18 +38,6 @@ pnpm dev
 - **Capsize typography** - Pixel-perfect text rendering
 - **5 font themes** - Switch at runtime via the theme picker
 - **Biome** - Fast linting and formatting
-- **Playbooks** - Electric, TanStack DB, and Durable Streams
-
-## Example Prompts
-
-Tell your coding agent:
-
-- "Set up a Durable Streams dev environment"
-- "Set up Electric sync for my Postgres database"
-- "Add a TanStack DB collection for the users table"
-- "Add a new route for /settings"
-- "Switch to the Playfair theme"
-- "Show me more font theme options"
 
 ## License
 
