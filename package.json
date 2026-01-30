@@ -37,7 +37,6 @@
     "@durable-streams/playbook": "https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/playbook@219",
     "@electric-sql/playbook": "^0.0.1",
     "@tanstack/db-playbook": "^0.0.1",
-    "@tanstack/devtools-vite": "^0.3.11",
     "@types/node": "^22.10.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
