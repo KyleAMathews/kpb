@@ -94,6 +94,20 @@ function AboutPage() {
 
 ## Included Playbooks
 
+To use a playbook, run the CLI to read the skill content:
+
+```bash
+# List available skills
+pnpm exec durable-streams-playbook list
+pnpm exec electric-playbook list
+pnpm exec db-playbook list
+
+# Read a specific skill
+pnpm exec durable-streams-playbook show durable-streams-dev-setup
+pnpm exec electric-playbook show electric-quickstart
+pnpm exec db-playbook show tanstack-db
+```
+
 ### Electric (`electric-playbook`)
 
 - `electric` - Electric sync engine for Postgres, routes to appropriate skills
