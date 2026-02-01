@@ -271,7 +271,7 @@ packages:
     hasBin: true
 
   '@electric-sql/playbook@https://pkg.pr.new/@electric-sql/playbook@3775':
-    resolution: {integrity: sha512-4XF6kwtRMLhqO8l3mxKUjWG12l5SXFZgykCX0wqaKrPBPiTNS+KJ3bjfuCylLsWYVzm9NoureOrYcIO+v6aAFw==, tarball: https://pkg.pr.new/@electric-sql/playbook@3775}
+    resolution: {tarball: https://pkg.pr.new/@electric-sql/playbook@3775}
     version: 0.0.1
     hasBin: true
 

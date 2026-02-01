@@ -1,24 +1,27 @@
-import { defineConfig } from 'vite'
-import { tanstackStart } from '@tanstack/react-start/plugin/vite'
-import viteReact from '@vitejs/plugin-react'
-import viteTsConfigPaths from 'vite-tsconfig-paths'
+import { defineConfig } from "vite";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import viteReact from "@vitejs/plugin-react";
+import viteTsConfigPaths from "vite-tsconfig-paths";
 
-import { capsizeRadixPlugin } from 'vite-plugin-capsize-radix'
-import inter from '@capsizecss/metrics/inter'
-import arial from '@capsizecss/metrics/arial'
+import { capsizeRadixPlugin } from "vite-plugin-capsize-radix";
+import inter from "@capsizecss/metrics/inter";
+import arial from "@capsizecss/metrics/arial";
 
 const config = defineConfig({
   plugins: [
     viteTsConfigPaths({
-      projects: ['./tsconfig.json'],
+      projects: ["./tsconfig.json"],
     }),
     capsizeRadixPlugin({
-      outputPath: './public/typography.css',
+      outputPath: "./public/typography.css",
       defaultFontStack: [inter, arial],
     }),
     tanstackStart(),
     viteReact(),
   ],
-})
+  server: {
+    port: 5173,
+  },
+});
 
-export default config
+export default config;
