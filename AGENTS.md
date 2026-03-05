@@ -1,4 +1,4 @@
-# Kyle's Playbook
+# Kyle's Stack
 
 A starter for building apps with TanStack Start, Radix UI, and capsize typography.
 
@@ -97,45 +97,41 @@ function AboutPage() {
 }
 ```
 
-## Included Playbooks
+<!-- intent-skills:start -->
+# Skill mappings — when working in these areas, load the linked skill file into context.
 
-To use a playbook, run the CLI to read the skill content:
+### TanStack DB (`@tanstack/db`, `@tanstack/react-db`)
 
-```bash
-# List available skills
-pnpm exec durable-streams-playbook list
-pnpm exec electric-playbook list
-pnpm exec db-playbook list
+- **Setting up collections or adding a new data source** → `node_modules/@tanstack/db/skills/db-core/collection-setup/SKILL.md`
+- **Writing live queries, filtering, joining, or aggregating data** → `node_modules/@tanstack/db/skills/db-core/live-queries/SKILL.md`
+- **Mutations, optimistic updates, or server sync** → `node_modules/@tanstack/db/skills/db-core/mutations-optimistic/SKILL.md`
+- **Building a custom collection adapter** → `node_modules/@tanstack/db/skills/db-core/custom-adapter/SKILL.md`
+- **TanStack DB overview or general questions** → `node_modules/@tanstack/db/skills/db-core/SKILL.md`
+- **Integrating DB with TanStack Start or other meta-frameworks** → `node_modules/@tanstack/db/skills/meta-framework/SKILL.md`
+- **Using TanStack DB in React (useLiveQuery, hooks)** → `node_modules/@tanstack/react-db/skills/react-db/SKILL.md`
+- **Offline support and transaction persistence** → `node_modules/@tanstack/offline-transactions/skills/offline/SKILL.md`
 
-# Read a specific skill
-pnpm exec durable-streams-playbook show durable-streams-dev-setup
-pnpm exec electric-playbook show electric-quickstart
-pnpm exec db-playbook show tanstack-db
-```
+### Electric (`@electric-sql/client`)
 
-### Electric (`electric-playbook`)
+- **Adding a new synced feature end-to-end** → `node_modules/@electric-sql/client/skills/electric-new-feature/SKILL.md`
+- **Configuring shapes, ShapeStream, or sync options** → `node_modules/@electric-sql/client/skills/electric-shapes/SKILL.md`
+- **Designing Postgres schema and shape definitions** → `node_modules/@electric-sql/client/skills/electric-schema-shapes/SKILL.md`
+- **Using Electric with Drizzle or Prisma** → `node_modules/@electric-sql/client/skills/electric-orm/SKILL.md`
+- **Debugging sync issues** → `node_modules/@electric-sql/client/skills/electric-debugging/SKILL.md`
+- **Postgres security for Electric** → `node_modules/@electric-sql/client/skills/electric-postgres-security/SKILL.md`
+- **Setting up auth proxy** → `node_modules/@electric-sql/client/skills/electric-proxy-auth/SKILL.md`
+- **Deploying Electric** → `node_modules/@electric-sql/client/skills/electric-deployment/SKILL.md`
 
-- `electric` - Electric sync engine for Postgres, routes to appropriate skills
-- `electric-quickstart` - Getting started with Electric and TanStack DB
-- `electric-tanstack-integration` - Deep integration patterns with TanStack DB
-- `electric-security-check` - Security audit checklist before production
-- `electric-go-live` - Production readiness checklist
-- `deploying-electric` - Cloud, Docker, and self-hosted deployment
+### Durable Streams (`@durable-streams/client`, `@durable-streams/state`)
 
-### TanStack DB (`db-playbook`)
-
-- `tanstack-db` - Reactive client-side data with live queries and optimistic mutations
-- `tanstack-db-collections` - Collection types and configuration
-- `tanstack-db-electric` - ElectricSQL integration
-- `tanstack-db-live-queries` - Live query patterns
-- `tanstack-db-mutations` - Mutation patterns
-- `tanstack-db-schemas` - Schema validation and type transformations
-
-### Durable Streams (`durable-streams-playbook`)
-
-- `durable-streams` - HTTP-based append-only logs with offset-based resumability
-- `durable-state` - Real-time state sync (presence, chat, collaborative editing)
-- `durable-streams-dev-setup` - Development environment setup
+- **Getting started with Durable Streams** → `node_modules/@durable-streams/client/skills/getting-started/SKILL.md`
+- **Reading from streams (stream(), LiveMode, cursors)** → `node_modules/@durable-streams/client/skills/reading-streams/SKILL.md`
+- **Writing data (append, IdempotentProducer)** → `node_modules/@durable-streams/client/skills/writing-data/SKILL.md`
+- **Server deployment (dev server, Caddy)** → `node_modules/@durable-streams/client/skills/server-deployment/SKILL.md`
+- **Production readiness checklist** → `node_modules/@durable-streams/client/skills/go-to-production/SKILL.md`
+- **Defining state schemas** → `node_modules/@durable-streams/state/skills/state-schema/SKILL.md`
+- **Stream-backed reactive database (createStreamDB)** → `node_modules/@durable-streams/state/skills/stream-db/SKILL.md`
+<!-- intent-skills:end -->
 
 ## Skills
 
