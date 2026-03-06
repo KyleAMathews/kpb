@@ -302,7 +302,7 @@ packages:
     resolution: {integrity: sha512-5uL1EIhAlfg0dvWsR1DGfqIsyiPBUsD/qlra15B82Ik28BcH7ScYEHLA4F34fZA0KamlpYcappvt2n1pTuDUfw==}
 
   '@durable-streams/client@https://pkg.pr.new/@durable-streams/client@270':
-    resolution: {integrity: sha512-qY8fPZlu7dN1WEjsUSU7bplLgzgkaJTIQAV1VpWiluuyctoemGmrMRucUSzyRV3JMfj5NZ3E6TblQL5+le14pg==, tarball: https://pkg.pr.new/@durable-streams/client@270}
+    resolution: {tarball: https://pkg.pr.new/@durable-streams/client@270}
     version: 0.2.1
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -314,7 +314,7 @@ packages:
     hasBin: true
 
   '@durable-streams/state@https://pkg.pr.new/@durable-streams/state@270':
-    resolution: {integrity: sha512-ivZdWzHUabZdreu7NfCX2kma3C7sUWRPvan1iR+ovxYb0z0I8mFRQgzZuuiXkwFT/vXaLMXekaJx0TtQhtPgCw==, tarball: https://pkg.pr.new/@durable-streams/state@270}
+    resolution: {tarball: https://pkg.pr.new/@durable-streams/state@270}
     version: 0.2.1
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -325,7 +325,7 @@ packages:
     resolution: {integrity: sha512-I/0rpC9IWWFME4hbHGyncekXFsuqKQmp+q4kgilTJIaoXMdYZJv7pY2W3Xecp3aCu4XUsnw9UEvZ0oofPqW6/Q==}
 
   '@electric-sql/client@https://pkg.pr.new/@electric-sql/client@3956':
-    resolution: {integrity: sha512-rfBm0Ku8B8WwewBfbUm/drNkj2oPaRC0uMvURf14nPLfcRUbtTk65rUnRQr0NmVvzMOwY1Q/f+o6Ep0yvrwGOg==, tarball: https://pkg.pr.new/@electric-sql/client@3956}
+    resolution: {tarball: https://pkg.pr.new/@electric-sql/client@3956}
     version: 1.5.11
     hasBin: true
 
@@ -1578,7 +1578,7 @@ packages:
       typescript: '>=4.7'
 
   '@tanstack/db@https://pkg.pr.new/@tanstack/db@1330':
-    resolution: {integrity: sha512-rxH+QKD0qc9vczwrxWH8e0zefWV6eTnLEBKj6BhYeY6XLGgeCxAKMse1E0Jp8mbrf0aNX5BaL42as9mr4aM8pg==, tarball: https://pkg.pr.new/@tanstack/db@1330}
+    resolution: {tarball: https://pkg.pr.new/@tanstack/db@1330}
     version: 0.5.30
     peerDependencies:
       typescript: '>=4.7'
@@ -1590,7 +1590,7 @@ packages:
       typescript: '>=4.7'
 
   '@tanstack/electric-db-collection@https://pkg.pr.new/@tanstack/electric-db-collection@1330':
-    resolution: {integrity: sha512-HtrUv1pLx8/+Ix4pPM6zlN5GFix511H8qQGhqQS3WcRbhSIMMkd2vC1jYA/J72qiBgKHxgE2napwAA3uRtpoow==, tarball: https://pkg.pr.new/@tanstack/electric-db-collection@1330}
+    resolution: {tarball: https://pkg.pr.new/@tanstack/electric-db-collection@1330}
     version: 0.2.37
 
   '@tanstack/history@1.161.4':
@@ -1606,7 +1606,7 @@ packages:
     engines: {node: '>=18'}
 
   '@tanstack/react-db@https://pkg.pr.new/@tanstack/react-db@1330':
-    resolution: {integrity: sha512-nQfOD9JJuGudJg7mcO00GKjE0JBcIdKvhhX0k1Y5b1h8ZY5uXoAi7VFzg2lIgJTCP/sPTvsU/zGc8LiB+/gO2g==, tarball: https://pkg.pr.new/@tanstack/react-db@1330}
+    resolution: {tarball: https://pkg.pr.new/@tanstack/react-db@1330}
     version: 0.1.74
     peerDependencies:
       react: '>=16.8.0'
