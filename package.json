@@ -40,7 +40,6 @@
     "@tanstack/db": "https://pkg.pr.new/@tanstack/db@1330",
     "@tanstack/electric-db-collection": "https://pkg.pr.new/@tanstack/electric-db-collection@1330",
     "@tanstack/intent": "^0.0.10",
-    "@tanstack/offline-transactions": "https://pkg.pr.new/@tanstack/offline-transactions@1330",
     "@tanstack/react-db": "https://pkg.pr.new/@tanstack/react-db@1330",
     "@types/node": "^22.19.13",
     "@types/react": "^19.2.14",

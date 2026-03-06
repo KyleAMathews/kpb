@@ -90,9 +90,6 @@ importers:
       '@tanstack/intent':
         specifier: ^0.0.10
         version: 0.0.10
-      '@tanstack/offline-transactions':
-        specifier: https://pkg.pr.new/@tanstack/offline-transactions@1330
-        version: https://pkg.pr.new/@tanstack/offline-transactions@1330(typescript@5.9.3)
       '@tanstack/react-db':
         specifier: https://pkg.pr.new/@tanstack/react-db@1330
         version: https://pkg.pr.new/@tanstack/react-db@1330(react@19.2.4)(typescript@5.9.3)
@@ -311,7 +308,7 @@ packages:
     hasBin: true
 
   '@durable-streams/client@https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/client@2eef2c8':
-    resolution: {integrity: sha512-qY8fPZlu7dN1WEjsUSU7bplLgzgkaJTIQAV1VpWiluuyctoemGmrMRucUSzyRV3JMfj5NZ3E6TblQL5+le14pg==, tarball: https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/client@2eef2c8}
+    resolution: {tarball: https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/client@2eef2c8}
     version: 0.2.1
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1575,7 +1572,7 @@ packages:
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
   '@tanstack/db-ivm@https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed':
-    resolution: {integrity: sha512-IKTik8rh7TnKcP4j/XL1Pe27TiQvnKnrnSGP/FDqyLovtsHOJPEXqfmDJ7X4CY7rGXDIkm9zsCxSqJOTLgQqJQ==, tarball: https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed}
+    resolution: {tarball: https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed}
     version: 0.1.17
     peerDependencies:
       typescript: '>=4.7'
@@ -1587,7 +1584,7 @@ packages:
       typescript: '>=4.7'
 
   '@tanstack/db@https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed':
-    resolution: {integrity: sha512-rxH+QKD0qc9vczwrxWH8e0zefWV6eTnLEBKj6BhYeY6XLGgeCxAKMse1E0Jp8mbrf0aNX5BaL42as9mr4aM8pg==, tarball: https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed}
+    resolution: {tarball: https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed}
     version: 0.5.30
     peerDependencies:
       typescript: '>=4.7'
@@ -1603,18 +1600,6 @@ packages:
   '@tanstack/intent@0.0.10':
     resolution: {integrity: sha512-NPZHsLs4DsBe801Bfvv/qsnNwrFtw4dpSuatpA7mORB8ohd43HjntBI/FN37B8V3cNMrNdPi8xIKDzdmKZI5aA==}
     hasBin: true
-
-  '@tanstack/offline-transactions@https://pkg.pr.new/@tanstack/offline-transactions@1330':
-    resolution: {integrity: sha512-ecQ20TuyqYY3PuZOMnm7hifP1SRMqvdfiTTUC0m3TM1G7MS8ixyWz9SyqPZyxpLMYaIWXacVoR65Tz1jdO+aIA==, tarball: https://pkg.pr.new/@tanstack/offline-transactions@1330}
-    version: 1.0.21
-    peerDependencies:
-      '@react-native-community/netinfo': '>=11.0.0'
-      react-native: '>=0.70.0'
-    peerDependenciesMeta:
-      '@react-native-community/netinfo':
-        optional: true
-      react-native:
-        optional: true
 
   '@tanstack/pacer-lite@0.2.1':
     resolution: {integrity: sha512-3PouiFjR4B6x1c969/Pl4ZIJleof1M0n6fNX8NRiC9Sqv1g06CVDlEaXUR4212ycGFyfq4q+t8Gi37Xy+z34iQ==}
@@ -3752,12 +3737,6 @@ snapshots:
   '@tanstack/intent@0.0.10':
     dependencies:
       yaml: 2.8.2
-
-  '@tanstack/offline-transactions@https://pkg.pr.new/@tanstack/offline-transactions@1330(typescript@5.9.3)':
-    dependencies:
-      '@tanstack/db': https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed(typescript@5.9.3)
-    transitivePeerDependencies:
-      - typescript
 
   '@tanstack/pacer-lite@0.2.1': {}
 
