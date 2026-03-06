@@ -97,6 +97,14 @@ function AboutPage() {
 }
 ```
 
+## Included Skills
+
+Skills ship inside the library packages via `@tanstack/intent`. To list all available skills:
+
+```bash
+npx @tanstack/intent@latest list
+```
+
 <!-- intent-skills:start -->
 # Skill mappings — when working in these areas, load the linked skill file into context.
 

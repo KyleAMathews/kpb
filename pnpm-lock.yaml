@@ -73,26 +73,29 @@ importers:
         specifier: 2.2.4
         version: 2.2.4
       '@durable-streams/client':
-        specifier: https://pkg.pr.new/@durable-streams/client@270
-        version: https://pkg.pr.new/@durable-streams/client@270
+        specifier: ^0.2.2
+        version: 0.2.2
       '@durable-streams/state':
-        specifier: https://pkg.pr.new/@durable-streams/state@270
-        version: https://pkg.pr.new/@durable-streams/state@270(@tanstack/db@https://pkg.pr.new/@tanstack/db@1330(typescript@5.9.3))
+        specifier: ^0.2.2
+        version: 0.2.2(@tanstack/db@0.5.30(typescript@5.9.3))
       '@electric-sql/client':
-        specifier: https://pkg.pr.new/@electric-sql/client@3956
-        version: https://pkg.pr.new/@electric-sql/client@3956
+        specifier: ^1.5.12
+        version: 1.5.12
       '@tanstack/db':
-        specifier: https://pkg.pr.new/@tanstack/db@1330
-        version: https://pkg.pr.new/@tanstack/db@1330(typescript@5.9.3)
+        specifier: ^0.5.30
+        version: 0.5.30(typescript@5.9.3)
       '@tanstack/electric-db-collection':
-        specifier: https://pkg.pr.new/@tanstack/electric-db-collection@1330
-        version: https://pkg.pr.new/@tanstack/electric-db-collection@1330(typescript@5.9.3)
+        specifier: ^0.2.37
+        version: 0.2.37(typescript@5.9.3)
       '@tanstack/intent':
-        specifier: ^0.0.10
-        version: 0.0.10
+        specifier: ^0.0.12
+        version: 0.0.12
+      '@tanstack/offline-transactions':
+        specifier: ^1.0.20
+        version: 1.0.20(typescript@5.9.3)
       '@tanstack/react-db':
-        specifier: https://pkg.pr.new/@tanstack/react-db@1330
-        version: https://pkg.pr.new/@tanstack/react-db@1330(react@19.2.4)(typescript@5.9.3)
+        specifier: ^0.1.74
+        version: 0.1.74(react@19.2.4)(typescript@5.9.3)
       '@types/node':
         specifier: ^22.19.13
         version: 22.19.13
@@ -301,32 +304,20 @@ packages:
   '@capsizecss/metrics@3.6.2':
     resolution: {integrity: sha512-5uL1EIhAlfg0dvWsR1DGfqIsyiPBUsD/qlra15B82Ik28BcH7ScYEHLA4F34fZA0KamlpYcappvt2n1pTuDUfw==}
 
-  '@durable-streams/client@https://pkg.pr.new/@durable-streams/client@270':
-    resolution: {tarball: https://pkg.pr.new/@durable-streams/client@270}
-    version: 0.2.1
+  '@durable-streams/client@0.2.2':
+    resolution: {integrity: sha512-zmr9ErxJP1ORljnog4kclWmEJGoTpGN+Mu8FJLVEgcaR9PqTeyKtadq1l1H+DhrPsfAPeG6BF/mEJs4HyI+Eig==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@durable-streams/client@https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/client@2eef2c8':
-    resolution: {tarball: https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/client@2eef2c8}
-    version: 0.2.1
-    engines: {node: '>=18.0.0'}
-    hasBin: true
-
-  '@durable-streams/state@https://pkg.pr.new/@durable-streams/state@270':
-    resolution: {tarball: https://pkg.pr.new/@durable-streams/state@270}
-    version: 0.2.1
+  '@durable-streams/state@0.2.2':
+    resolution: {integrity: sha512-dTYNUjtn6sgYoA/dtbBgbdHlKrrjOPaycXQZndruX2oDicZX71Qry760cLYAbRkqwM7dHyDzDk5WTlnIXYOoyA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
       '@tanstack/db': '>=0.5.0'
 
-  '@electric-sql/client@1.5.11':
-    resolution: {integrity: sha512-I/0rpC9IWWFME4hbHGyncekXFsuqKQmp+q4kgilTJIaoXMdYZJv7pY2W3Xecp3aCu4XUsnw9UEvZ0oofPqW6/Q==}
-
-  '@electric-sql/client@https://pkg.pr.new/@electric-sql/client@3956':
-    resolution: {tarball: https://pkg.pr.new/@electric-sql/client@3956}
-    version: 1.5.11
+  '@electric-sql/client@1.5.12':
+    resolution: {integrity: sha512-mWDEpKog0Zo4WOjReW4x9ELaHsjTthpziLVJkjmSdh/4Y/ZHw5EoY5e9dJX9itPSKVk9GNFz3YfHFv5EAyCOmw==}
     hasBin: true
 
   '@esbuild/aix-ppc64@0.27.2':
@@ -1571,43 +1562,44 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tanstack/db-ivm@https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed':
-    resolution: {tarball: https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed}
-    version: 0.1.17
+  '@tanstack/db-ivm@0.1.17':
+    resolution: {integrity: sha512-DK7vm56CDxNuRAdsbiPs+gITJ+16tUtYgZg3BRTLYKGIDsy8sdIO7sQFq5zl7Y+aIKAPmMAbVp9UjJ75FTtwgQ==}
     peerDependencies:
       typescript: '>=4.7'
 
-  '@tanstack/db@https://pkg.pr.new/@tanstack/db@1330':
-    resolution: {tarball: https://pkg.pr.new/@tanstack/db@1330}
-    version: 0.5.30
+  '@tanstack/db@0.5.30':
+    resolution: {integrity: sha512-kgBbmGrWSrDdKPzl465OEGy2Epyc6HsoI2U/jUrMSHuGgUEtgowpnBCTyPJCGBrHL8+bYgASFV4ULsFn4L6pLg==}
     peerDependencies:
       typescript: '>=4.7'
 
-  '@tanstack/db@https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed':
-    resolution: {tarball: https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed}
-    version: 0.5.30
-    peerDependencies:
-      typescript: '>=4.7'
-
-  '@tanstack/electric-db-collection@https://pkg.pr.new/@tanstack/electric-db-collection@1330':
-    resolution: {tarball: https://pkg.pr.new/@tanstack/electric-db-collection@1330}
-    version: 0.2.37
+  '@tanstack/electric-db-collection@0.2.37':
+    resolution: {integrity: sha512-IqrsSmrW9W8gQTzvSql4lQ31BtqojQ3Un2UZoS8tb3CDRbWSD+R1qXLt+UKiYvGEfWLjBP1sdZV2D6rC0vVD0g==}
 
   '@tanstack/history@1.161.4':
     resolution: {integrity: sha512-Kp/WSt411ZWYvgXy6uiv5RmhHrz9cAml05AQPrtdAp7eUqvIDbMGPnML25OKbzR3RJ1q4wgENxDTvlGPa9+Mww==}
     engines: {node: '>=20.19'}
 
-  '@tanstack/intent@0.0.10':
-    resolution: {integrity: sha512-NPZHsLs4DsBe801Bfvv/qsnNwrFtw4dpSuatpA7mORB8ohd43HjntBI/FN37B8V3cNMrNdPi8xIKDzdmKZI5aA==}
+  '@tanstack/intent@0.0.12':
+    resolution: {integrity: sha512-aU3YjgZkB1X+l+CbwVH9jYr99VwRr7utqeAx21MD47C91Dh4VhKxoth94JBrj4LkjH7aiXWnyOyUscV9MFQwaw==}
     hasBin: true
+
+  '@tanstack/offline-transactions@1.0.20':
+    resolution: {integrity: sha512-kjw+hAJD4yU2XqQd702GZt9BgJlPu+QOc8MkXWdYBLaLb3ig8/ui+vhJFRXigk+XqyKxuQ6JF9jLXKsnB3ZDRQ==}
+    peerDependencies:
+      '@react-native-community/netinfo': '>=11.0.0'
+      react-native: '>=0.70.0'
+    peerDependenciesMeta:
+      '@react-native-community/netinfo':
+        optional: true
+      react-native:
+        optional: true
 
   '@tanstack/pacer-lite@0.2.1':
     resolution: {integrity: sha512-3PouiFjR4B6x1c969/Pl4ZIJleof1M0n6fNX8NRiC9Sqv1g06CVDlEaXUR4212ycGFyfq4q+t8Gi37Xy+z34iQ==}
     engines: {node: '>=18'}
 
-  '@tanstack/react-db@https://pkg.pr.new/@tanstack/react-db@1330':
-    resolution: {tarball: https://pkg.pr.new/@tanstack/react-db@1330}
-    version: 0.1.74
+  '@tanstack/react-db@0.1.74':
+    resolution: {integrity: sha512-5c5sIVLWsqDnufK4fTnO6VQWUjuIQXB5LEY7zBSqhfJgTMomHtFVxb899O97z2oqF+UzIzmW/lXqUq9Xm8l1Pg==}
     peerDependencies:
       react: '>=16.8.0'
 
@@ -2602,29 +2594,18 @@ snapshots:
 
   '@capsizecss/metrics@3.6.2': {}
 
-  '@durable-streams/client@https://pkg.pr.new/@durable-streams/client@270':
+  '@durable-streams/client@0.2.2':
     dependencies:
       '@microsoft/fetch-event-source': 2.0.1
       fastq: 1.20.1
 
-  '@durable-streams/client@https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/client@2eef2c8':
+  '@durable-streams/state@0.2.2(@tanstack/db@0.5.30(typescript@5.9.3))':
     dependencies:
-      '@microsoft/fetch-event-source': 2.0.1
-      fastq: 1.20.1
-
-  '@durable-streams/state@https://pkg.pr.new/@durable-streams/state@270(@tanstack/db@https://pkg.pr.new/@tanstack/db@1330(typescript@5.9.3))':
-    dependencies:
-      '@durable-streams/client': https://pkg.pr.new/durable-streams/durable-streams/@durable-streams/client@2eef2c8
+      '@durable-streams/client': 0.2.2
       '@standard-schema/spec': 1.1.0
-      '@tanstack/db': https://pkg.pr.new/@tanstack/db@1330(typescript@5.9.3)
+      '@tanstack/db': 0.5.30(typescript@5.9.3)
 
-  '@electric-sql/client@1.5.11':
-    dependencies:
-      '@microsoft/fetch-event-source': 2.0.1
-    optionalDependencies:
-      '@rollup/rollup-darwin-arm64': 4.57.1
-
-  '@electric-sql/client@https://pkg.pr.new/@electric-sql/client@3956':
+  '@electric-sql/client@1.5.12':
     dependencies:
       '@microsoft/fetch-event-source': 2.0.1
     optionalDependencies:
@@ -3701,31 +3682,24 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tanstack/db-ivm@https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed(typescript@5.9.3)':
+  '@tanstack/db-ivm@0.1.17(typescript@5.9.3)':
     dependencies:
       fractional-indexing: 3.2.0
       sorted-btree: 1.8.1
       typescript: 5.9.3
 
-  '@tanstack/db@https://pkg.pr.new/@tanstack/db@1330(typescript@5.9.3)':
+  '@tanstack/db@0.5.30(typescript@5.9.3)':
     dependencies:
       '@standard-schema/spec': 1.1.0
-      '@tanstack/db-ivm': https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed(typescript@5.9.3)
+      '@tanstack/db-ivm': 0.1.17(typescript@5.9.3)
       '@tanstack/pacer-lite': 0.2.1
       typescript: 5.9.3
 
-  '@tanstack/db@https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed(typescript@5.9.3)':
+  '@tanstack/electric-db-collection@0.2.37(typescript@5.9.3)':
     dependencies:
+      '@electric-sql/client': 1.5.12
       '@standard-schema/spec': 1.1.0
-      '@tanstack/db-ivm': https://pkg.pr.new/TanStack/db/@tanstack/db-ivm@cc881ed(typescript@5.9.3)
-      '@tanstack/pacer-lite': 0.2.1
-      typescript: 5.9.3
-
-  '@tanstack/electric-db-collection@https://pkg.pr.new/@tanstack/electric-db-collection@1330(typescript@5.9.3)':
-    dependencies:
-      '@electric-sql/client': 1.5.11
-      '@standard-schema/spec': 1.1.0
-      '@tanstack/db': https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed(typescript@5.9.3)
+      '@tanstack/db': 0.5.30(typescript@5.9.3)
       '@tanstack/store': 0.8.1
       debug: 4.4.3
     transitivePeerDependencies:
@@ -3734,15 +3708,21 @@ snapshots:
 
   '@tanstack/history@1.161.4': {}
 
-  '@tanstack/intent@0.0.10':
+  '@tanstack/intent@0.0.12':
     dependencies:
       yaml: 2.8.2
 
+  '@tanstack/offline-transactions@1.0.20(typescript@5.9.3)':
+    dependencies:
+      '@tanstack/db': 0.5.30(typescript@5.9.3)
+    transitivePeerDependencies:
+      - typescript
+
   '@tanstack/pacer-lite@0.2.1': {}
 
-  '@tanstack/react-db@https://pkg.pr.new/@tanstack/react-db@1330(react@19.2.4)(typescript@5.9.3)':
+  '@tanstack/react-db@0.1.74(react@19.2.4)(typescript@5.9.3)':
     dependencies:
-      '@tanstack/db': https://pkg.pr.new/TanStack/db/@tanstack/db@cc881ed(typescript@5.9.3)
+      '@tanstack/db': 0.5.30(typescript@5.9.3)
       react: 19.2.4
       use-sync-external-store: 1.6.0(react@19.2.4)
     transitivePeerDependencies:
