@@ -1,6 +1,6 @@
-# Kyle's Playbook
+# Kyle's Stack
 
-A starter for building apps with TanStack Start, Radix UI, and capsize typography — with playbooks for **Electric**, **TanStack DB**, and **Durable Streams**.
+A starter for building apps with TanStack Start, Radix UI, and capsize typography — with [`@tanstack/intent`](https://github.com/TanStack/intent) skills pre-installed for **Electric**, **TanStack DB**, and **Durable Streams**.
 
 ## Quick Start
 
@@ -11,9 +11,9 @@ pnpm install
 pnpm dev
 ```
 
-## Included Playbooks
+## Included Skills
 
-This starter comes with playbooks pre-installed. Just ask your coding agent:
+This starter comes with skills pre-installed. Just ask your coding agent:
 
 **Electric** — Sync Postgres to your app
 - "Set up Electric sync for my Postgres database"
